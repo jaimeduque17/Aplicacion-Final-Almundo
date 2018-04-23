@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, TextInput, Text } from 'react-native'
 import _styles from './Style'
-import { Icon } from '../../Helpers/Icons'
 import { getComponentStyle } from '../../Helpers/Stylus'
 
 class Card extends Component {
@@ -14,8 +13,9 @@ class Card extends Component {
   render() {
     return (
       <View style={styles.container}>
-          {/* <Icon iconName='cup' iconStyle={styles.iconCup} /> */}
-        </View>
+        <TextInput style={styles.textInputReturn}></TextInput>
+        <Text style={styles.textReturn}>{'Voy a'}</Text>
+      </View>
     )
   }
 }

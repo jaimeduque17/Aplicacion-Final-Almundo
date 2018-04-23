@@ -1,7 +1,7 @@
 import { Fonts } from '../../Config/Constant'
 
 export default {
-  containerCard: {
+  container: {
     backgroundColor: 'rgb(248, 248, 248))',
     width: 360,
     height: 640,
@@ -15,5 +15,19 @@ export default {
     transform: [{
       rotateZ: '90deg'
     }]
+  },
+  containerText: {
+    width: 328,
+    height: 40,
+    marginTop: 300,
+    marginLeft: 169,
+    flexDirection: 'column',
+    backgroundColor: 'rgb(255, 255, 255))',
+    position: 'absolute'
+  },
+  txtDeparture: {
+    marginTop: 300,
+    marginLeft: 169,
+    position: 'absolute'
   }
 }
