@@ -16,10 +16,21 @@ export default {
       rotateZ: '90deg'
     }]
   },
-  containerDate: {
+  containerDateStart: {
     width: 328,
     height: 40,
     marginTop: 300,
+    marginLeft: 16,
+    flexDirection: 'row',
+    backgroundColor: 'rgb(255, 255, 255)',
+    borderRadius: 2,
+    elevation: 3,
+    position: 'absolute'
+  },
+  containerDateEnd: {
+    width: 328,
+    height: 40,
+    marginTop: 360,
     marginLeft: 16,
     flexDirection: 'row',
     backgroundColor: 'rgb(255, 255, 255)',

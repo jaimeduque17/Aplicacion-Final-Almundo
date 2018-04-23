@@ -20,9 +20,13 @@ export default class App extends Component {
           <Icon iconName='flights' iconStyle={styles.iconFlight} />
           <CardTo />
         </View>
-        <View style={styles.containerDate}>
+        <View style={styles.containerDateStart}>
           <Icon iconName='date' iconStyle={styles.iconCalendar} />
           <TextInput style={styles.dateDeparture}>{'23 Abr 2018'}</TextInput>
+        </View>
+        <View style={styles.containerDateEnd}>
+          <Icon iconName='date' iconStyle={styles.iconCalendar} />
+          <TextInput style={styles.dateDeparture}>{'23 May 2018'}</TextInput>
         </View>
         <TouchableOpacity style={styles.containerBtn}>
             <Text style={styles.btnSearch}>{'BUSCAR'}</Text>
