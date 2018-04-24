@@ -10,7 +10,8 @@ export default {
     height: 64,
     paddingTop: 6,
     paddingBottom: 12,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    backgroundColor: 'rgb(0, 175, 236)'
   },
   btnBack: {
     marginRight: 32,
@@ -38,7 +39,8 @@ export default {
   containerBtns: {
     width: 360,
     height: 40,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    backgroundColor: 'rgb(0, 175, 236)'
   },
   btnAnimation: {
     height: 40,
