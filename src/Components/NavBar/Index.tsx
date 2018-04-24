@@ -19,13 +19,13 @@ class NavBar extends Component {
         const shadowOpt = {
             width: 360,
             height: 128,
-            color: '#000',
-            border: 2,
-            radius: 3,
-            opacity: 0.1,
+            color: '#fff',
+            border: 1,
+            radius: 1,
+            opacity: 0.7,
             x: 0,
             y: 3,
-            style: { marginBottom: 5 }
+            style: { marginBottom: 2 }
         }
         return (
             <BoxShadow setting={shadowOpt} >

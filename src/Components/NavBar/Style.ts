@@ -5,7 +5,6 @@ export default {
     alignItems: 'center',
     paddingLeft: 16,
     paddingRight: 28,
-    marginTop: 24,
     width: 360,
     height: 64,
     paddingTop: 6,

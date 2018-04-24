@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View, TouchableOpacity, Text, ScrollView } from 'react-native'
 // import { Icon } from '../../Helpers/Icons'
 import { getComponentStyle } from '../../Helpers/Stylus'
-import CardIda from '../../Components/CardIda'
+import Card from '../../Components/Card'
 import NavBar from '../../Components/NavBar'
 import _styles from './Style'
 
@@ -13,10 +13,10 @@ export default class App extends Component {
         <NavBar />
         <ScrollView>
           <View style={styles.container1}>
-            <CardIda />
+            <Card />
           </View>
           <View style={styles.container2}>
-            <CardIda />
+            <Card />
           </View>
           <TouchableOpacity style={styles.btnStyle}>
               <Text style={styles.btnSearch}>{'BUSCAR'}</Text>
