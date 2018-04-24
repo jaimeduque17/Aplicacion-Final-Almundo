@@ -13,14 +13,6 @@ export default {
     marginTop: 310,
     flexDirection: 'row'
   },
-  containerBtn: {
-    width: 328,
-    height: 40,
-    marginTop: 675,
-    backgroundColor: 'rgb(0, 189, 255)',
-    marginLeft: 15,
-    position: 'absolute'
-  },
   btnStyle: {
     width: 328,
     height: 40,
