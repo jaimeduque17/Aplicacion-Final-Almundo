@@ -8,7 +8,7 @@ export default {
   btnStyle: {
     width: 328,
     height: 40,
-    marginTop: 505,
+    marginTop: 525,
     marginLeft: 16,
     backgroundColor: 'rgb(0, 189, 255)',
     borderRadius: 2,

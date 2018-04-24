@@ -3,7 +3,7 @@ import { View, TextInput, Text } from 'react-native'
 import _styles from './Style'
 import { getComponentStyle } from '../../Helpers/Stylus'
 
-class CardIda extends Component {
+class CardVuelta extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -33,4 +33,4 @@ class CardIda extends Component {
 
 const styles = getComponentStyle(_styles)
 
-export default CardIda
+export default CardVuelta

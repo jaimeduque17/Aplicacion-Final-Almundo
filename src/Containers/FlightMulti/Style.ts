@@ -2,7 +2,7 @@ export default {
   container1: {
     backgroundColor: 'rgb(248, 248, 248))',
     width: 360,
-    height: 900,
+    height: 950,
     flexDirection: 'row'
   },
   container2: {
@@ -10,13 +10,13 @@ export default {
     width: 50,
     height: 50,
     position: 'absolute',
-    marginTop: 310,
+    marginTop: 365,
     flexDirection: 'row'
   },
   btnStyle: {
     width: 328,
     height: 40,
-    marginTop: 675,
+    marginTop: 755,
     marginLeft: 16,
     backgroundColor: 'rgb(0, 189, 255)',
     borderRadius: 2,

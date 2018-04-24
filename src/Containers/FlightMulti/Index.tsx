@@ -3,7 +3,6 @@ import { View, TouchableOpacity, Text, ScrollView } from 'react-native'
 // import { Icon } from '../../Helpers/Icons'
 import { getComponentStyle } from '../../Helpers/Stylus'
 import CardIda from '../../Components/CardIda'
-// import CardTo from '../../Components/CardTo'
 import NavBar from '../../Components/NavBar'
 import _styles from './Style'
 
