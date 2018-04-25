@@ -6,7 +6,7 @@ import _styles from './Style'
 import { BoxShadow } from 'react-native-shadow'
 // import { initializeButtonAnimate } from '../../Helpers/Animated'
 import { getComponentStyle } from '../../Helpers/Stylus'
-import { Icon } from '../../Helpers/Icons'
+// import { Icon } from '../../Helpers/Icons'
 import { Actions } from 'react-native-router-flux'
 
 export default class NavBar extends Component {
@@ -40,9 +40,9 @@ export default class NavBar extends Component {
         return (
             <BoxShadow setting={shadowOpt} >
                 <View style={styles.containerCentral}>
-                    <TouchableOpacity onPress={this.back} style={styles.btnBack}>
+                    {/* <TouchableOpacity onPress={this.back} style={styles.btnBack}>
                         <Icon iconName='back' iconStyle={styles.iconBack} />
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
                     <View style={styles.containerTitle}>
                         <Text numberOfLines={1} style={styles.titlePrincipal}>{'Vuelos'}</Text>
                     </ View>

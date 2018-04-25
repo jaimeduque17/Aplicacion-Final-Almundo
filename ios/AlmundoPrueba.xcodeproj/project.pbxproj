@@ -11,7 +11,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* PruebaAlmundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PruebaAlmundoTests.m */; };
+		00E356F31AD99517003FC87E /* AlmundoPruebaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlmundoPruebaTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -32,35 +32,45 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* PruebaAlmundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PruebaAlmundoTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* AlmundoPruebaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlmundoPruebaTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C9739EBB9972460D8CB4A431 /* libRCTOrientation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7B1CFD5A0F429FA462D2F6 /* libRCTOrientation.a */; };
-		3ACAB7FD2B0C4B64B08C6FF2 /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A298967F3B46C29DD83C9E /* ProximaNova-Black.ttf */; };
-		CF8A112C5F2B40FF8AA2717E /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335A657AA39E4B4B98B853B8 /* ProximaNova-Bold.ttf */; };
-		BBC20B11881D4BAB8A051A7A /* ProximaNova-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5452792BBC2404F9E3B95C3 /* ProximaNova-BoldIt.ttf */; };
-		8CEAF36AB413457F9076A027 /* ProximaNova-Extrabld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9396B7544427BFE7C44F /* ProximaNova-Extrabld.ttf */; };
-		6EF79E9065EF463D8CAC2D68 /* ProximaNova-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D71C1C2F54CD2890D83F1 /* ProximaNova-Light.ttf */; };
-		77579B19647A4139A5935522 /* ProximaNova-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEFB7D9C249045CDAB6BD488 /* ProximaNova-LightIt.ttf */; };
-		E2D6E370D69047E29A974D87 /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0512AEBEEB99444D97B0DC9F /* ProximaNova-Regular.ttf */; };
-		31A27BA1C8D8411097E3D951 /* ProximaNova-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF973E187C443F804B064D /* ProximaNova-RegularIt.ttf */; };
-		F135DEACE45D4134BE1B7F9C /* ProximaNova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7345C763B64A178865DE3E /* ProximaNova-Semibold.ttf */; };
-		5D35730BECF34A7591A04867 /* ProximaNova-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A8F527BFB040A9BE674DE1 /* ProximaNova-SemiboldIt.ttf */; };
-		4C7843CBA7D64BB48C197A1D /* ProximaNovaCond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFC2279C02164B509181D34F /* ProximaNovaCond-Light.ttf */; };
-		06FA838545A244B9882B325D /* ProximaNovaCond-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247CB353BA2E4CCE83875AB6 /* ProximaNovaCond-LightIt.ttf */; };
-		5438C6FCFB9B44BDB5975134 /* ProximaNovaCond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B56672D7334F8283E6BEA0 /* ProximaNovaCond-Regular.ttf */; };
-		C0C106A8EBBA4410AE8F52FC /* ProximaNovaCond-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 460FEE23934B492B87A86D58 /* ProximaNovaCond-RegularIt.ttf */; };
-		06A65511698C440C9FDB1E98 /* ProximaNovaCond-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C6DE66DDF54816AE986E3F /* ProximaNovaCond-Semibold.ttf */; };
-		0B86C8B963B84F89AF5FA42D /* ProximaNovaCond-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420F5A425677489D8C9AA6BC /* ProximaNovaCond-SemiboldIt.ttf */; };
-		6ED1CC65A0D8472CB4E9E36C /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 272A9A206B454C949179B12E /* libAirMaps.a */; };
-		876AC0D0531D468A829A62A1 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C3A8C27324243B43B8EE0 /* libBVLinearGradient.a */; };
-		92743AC30B344BAAAA8878ED /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE02515B54AB2BE936E66 /* libRNSVG.a */; };
-		295ECF1398FA4B1BBE2A714C /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19937130F6E2421E96887854 /* libRNSVG-tvOS.a */; };
-		D31F7E371C064F63A7B94BC6 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DAEFBF34334DB4860CA90F /* libRNI18n.a */; };
-		EB3C668286D84AFB9AFD7028 /* libRNI18n-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4355D0AA5CEA42A5B19F2B65 /* libRNI18n-tvOS.a */; };
-		D6CC69440B964389951E8423 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CB984672CC43068060C2FF /* libRNVectorIcons.a */; };
+		781EBEABD3E944E380D7BDC7 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0284CDC2554C4CFF900EFC6D /* libRNI18n.a */; };
+		BAE681FC12654715AC86C6C8 /* libRNI18n-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8830E211F6104826ACF59A36 /* libRNI18n-tvOS.a */; };
+		DE7E353500E44DD8A0F7CA31 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36468AF66C3B4651BC0F5F41 /* libBVLinearGradient.a */; };
+		105AA531A73747BE87E933DC /* libRCTOrientation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB445C7F2D884401B5061129 /* libRCTOrientation.a */; };
+		8BA2281C900048D2B86B722E /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063CF1F7E394293B1FF092A /* libRNSVG.a */; };
+		93D89E75A9FF4C0596FB744D /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6AABB9138F4B5D9176A89A /* libRNSVG-tvOS.a */; };
+		9ED2FC30D9BE47DD9BD2E58C /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B69C1AD1A645B2AEB674CA /* libRNVectorIcons.a */; };
+		FCB4CB9618C3459E9C97CD99 /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E261096DC0EB49579C33D753 /* ProximaNova-Black.ttf */; };
+		6E75C7F9EB9F4AF8AB00984D /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B092A1E7A34FA38EC5B8AB /* ProximaNova-Bold.ttf */; };
+		82D986024804482FAC81C636 /* ProximaNova-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38D795CAFC344B8F9CCD4199 /* ProximaNova-BoldIt.ttf */; };
+		E45C3518312848AABC07C862 /* ProximaNova-Extrabld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73AC32174A3846BDA6872C7D /* ProximaNova-Extrabld.ttf */; };
+		379EF302BCFA4AFE9A08345D /* ProximaNova-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C08238E28C44AE78305AC02 /* ProximaNova-Light.ttf */; };
+		CBC288D2BFD24A289649161A /* ProximaNova-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D545DBE35CA847F69849B6BD /* ProximaNova-LightIt.ttf */; };
+		E72DB1F54244437DAE33CE76 /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0C260ED03974E0C8C1B146A /* ProximaNova-Regular.ttf */; };
+		79975C733E224F0FAF9014EA /* ProximaNova-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBABC2EEC194009A9547B96 /* ProximaNova-RegularIt.ttf */; };
+		D9CB4CAD5CDE40559ACCCE79 /* ProximaNova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C48FCF5CB85F459BBE632A1C /* ProximaNova-Semibold.ttf */; };
+		5A78F3EC1A1D4F079AA86E41 /* ProximaNova-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72847B95BE0E4D319FEAE7EB /* ProximaNova-SemiboldIt.ttf */; };
+		FE125760D76F46019A29F86C /* ProximaNovaCond-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C766EA2B4244FF685A36CA4 /* ProximaNovaCond-Light.ttf */; };
+		B3194C2599DF47FCA40582DC /* ProximaNovaCond-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F668B7E451A14FE6BC5E3CD0 /* ProximaNovaCond-LightIt.ttf */; };
+		F9EE16C0328C4F999F1D81A1 /* ProximaNovaCond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B7FA6F6E8B44C928639141D /* ProximaNovaCond-Regular.ttf */; };
+		A84DC96E221A42CBA4347598 /* ProximaNovaCond-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B292445DAC2475188ED453F /* ProximaNovaCond-RegularIt.ttf */; };
+		F17A5D24A002410798980B82 /* ProximaNovaCond-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDFB1593C7374B78833D3EDD /* ProximaNovaCond-Semibold.ttf */; };
+		5EB129860DCD495A9FB9E5B9 /* ProximaNovaCond-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B33797E913B0494FBFB9BB13 /* ProximaNovaCond-SemiboldIt.ttf */; };
+		3F592B3F2EE44CE685589337 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBC3E848E544B42A85A4C2A /* Entypo.ttf */; };
+		07119BCB1EFC4EAF8490AE42 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9A22D7947284F638514F8F2 /* EvilIcons.ttf */; };
+		1362B21653864545BFD7C304 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16A9AAA956B04063ADBAF1E0 /* Feather.ttf */; };
+		E72FA10D38D54CDDBAE537F8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 536346E89B5F4CDBB97EE0DF /* FontAwesome.ttf */; };
+		181A5B9D93544FFCBFF0B1E7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEC294C7FDD746BF865D4602 /* Foundation.ttf */; };
+		4A54CD2CBBCA43BAAB1C4E6C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1D59F8EC954EA0950B2F2C /* Ionicons.ttf */; };
+		0AD9F2DD5073478689DA7F02 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5255D370B7F74E15901389F1 /* MaterialCommunityIcons.ttf */; };
+		161DE3348B32475CBE11353C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A0217A8F19648C18DCF8E85 /* MaterialIcons.ttf */; };
+		1A651BEF771F41C1B785FCBC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD5773E359444726B51C465A /* Octicons.ttf */; };
+		56C8B8B558C44A259BE16AE4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52077C54C75422FACF1F009 /* SimpleLineIcons.ttf */; };
+		E51D6C022FA842A19804535B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3690758E23E4BEF900292F3 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +114,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PruebaAlmundo;
+			remoteInfo = AlmundoPrueba;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -132,7 +142,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "PruebaAlmundo-tvOS";
+			remoteInfo = "AlmundoPrueba-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -346,56 +356,65 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* PruebaAlmundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaAlmundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* AlmundoPruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlmundoPruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PruebaAlmundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaAlmundoTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AlmundoPruebaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlmundoPruebaTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PruebaAlmundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaAlmundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PruebaAlmundo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PruebaAlmundo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AlmundoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlmundoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AlmundoPrueba/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AlmundoPrueba/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PruebaAlmundo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PruebaAlmundo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PruebaAlmundo/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AlmundoPrueba/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AlmundoPrueba/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlmundoPrueba/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* PruebaAlmundo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PruebaAlmundo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* PruebaAlmundo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PruebaAlmundo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* AlmundoPrueba-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlmundoPrueba-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* AlmundoPrueba-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlmundoPrueba-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		626E3C19C7F24C1EA62FB49A /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; name = "RCTOrientation.xcodeproj"; path = "../node_modules/react-native-orientation/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		5F7B1CFD5A0F429FA462D2F6 /* libRCTOrientation.a */ = {isa = PBXFileReference; name = "libRCTOrientation.a"; path = "libRCTOrientation.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		A5A298967F3B46C29DD83C9E /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Black.ttf"; path = "../src/Assets/fonts/ProximaNova-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		335A657AA39E4B4B98B853B8 /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Bold.ttf"; path = "../src/Assets/fonts/ProximaNova-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F5452792BBC2404F9E3B95C3 /* ProximaNova-BoldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-BoldIt.ttf"; path = "../src/Assets/fonts/ProximaNova-BoldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B8A9396B7544427BFE7C44F /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Extrabld.ttf"; path = "../src/Assets/fonts/ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6F0D71C1C2F54CD2890D83F1 /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Light.ttf"; path = "../src/Assets/fonts/ProximaNova-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AEFB7D9C249045CDAB6BD488 /* ProximaNova-LightIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-LightIt.ttf"; path = "../src/Assets/fonts/ProximaNova-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0512AEBEEB99444D97B0DC9F /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Regular.ttf"; path = "../src/Assets/fonts/ProximaNova-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9FAF973E187C443F804B064D /* ProximaNova-RegularIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-RegularIt.ttf"; path = "../src/Assets/fonts/ProximaNova-RegularIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E7345C763B64A178865DE3E /* ProximaNova-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.ttf"; path = "../src/Assets/fonts/ProximaNova-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D2A8F527BFB040A9BE674DE1 /* ProximaNova-SemiboldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-SemiboldIt.ttf"; path = "../src/Assets/fonts/ProximaNova-SemiboldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AFC2279C02164B509181D34F /* ProximaNovaCond-Light.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Light.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		247CB353BA2E4CCE83875AB6 /* ProximaNovaCond-LightIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-LightIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		09B56672D7334F8283E6BEA0 /* ProximaNovaCond-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Regular.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		460FEE23934B492B87A86D58 /* ProximaNovaCond-RegularIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-RegularIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-RegularIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		76C6DE66DDF54816AE986E3F /* ProximaNovaCond-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Semibold.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		420F5A425677489D8C9AA6BC /* ProximaNovaCond-SemiboldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-SemiboldIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-SemiboldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2443BDA03A7645CC90C6B103 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		272A9A206B454C949179B12E /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		FCBA021E919846BAA5A5E360 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		222C3A8C27324243B43B8EE0 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		21F2696590E3447BBF71FF1A /* RNSVG.xcodeproj */ = {isa = PBXFileReference; name = "RNSVG.xcodeproj"; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		51CEE02515B54AB2BE936E66 /* libRNSVG.a */ = {isa = PBXFileReference; name = "libRNSVG.a"; path = "libRNSVG.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		19937130F6E2421E96887854 /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; name = "libRNSVG-tvOS.a"; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		3C144F3FA87941498DF7F3C6 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		D4DAEFBF34334DB4860CA90F /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		4355D0AA5CEA42A5B19F2B65 /* libRNI18n-tvOS.a */ = {isa = PBXFileReference; name = "libRNI18n-tvOS.a"; path = "libRNI18n-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		FC73BD5268D843AEB262A728 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		A0CB984672CC43068060C2FF /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		4FE3527FD4F14899A04310EF /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		0284CDC2554C4CFF900EFC6D /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		8830E211F6104826ACF59A36 /* libRNI18n-tvOS.a */ = {isa = PBXFileReference; name = "libRNI18n-tvOS.a"; path = "libRNI18n-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		5CF088478AEC4AE0A2A9C890 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		36468AF66C3B4651BC0F5F41 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		19122B5E48C7430AA4D1B933 /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; name = "RCTOrientation.xcodeproj"; path = "../node_modules/react-native-orientation/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		AB445C7F2D884401B5061129 /* libRCTOrientation.a */ = {isa = PBXFileReference; name = "libRCTOrientation.a"; path = "libRCTOrientation.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		C053E356B102407CBAC4AEE0 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; name = "RNSVG.xcodeproj"; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		6063CF1F7E394293B1FF092A /* libRNSVG.a */ = {isa = PBXFileReference; name = "libRNSVG.a"; path = "libRNSVG.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		2C6AABB9138F4B5D9176A89A /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; name = "libRNSVG-tvOS.a"; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		3902EFEB20884B7C9651479C /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		95B69C1AD1A645B2AEB674CA /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E261096DC0EB49579C33D753 /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Black.ttf"; path = "../src/Assets/fonts/ProximaNova-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0B092A1E7A34FA38EC5B8AB /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Bold.ttf"; path = "../src/Assets/fonts/ProximaNova-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38D795CAFC344B8F9CCD4199 /* ProximaNova-BoldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-BoldIt.ttf"; path = "../src/Assets/fonts/ProximaNova-BoldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73AC32174A3846BDA6872C7D /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Extrabld.ttf"; path = "../src/Assets/fonts/ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C08238E28C44AE78305AC02 /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Light.ttf"; path = "../src/Assets/fonts/ProximaNova-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D545DBE35CA847F69849B6BD /* ProximaNova-LightIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-LightIt.ttf"; path = "../src/Assets/fonts/ProximaNova-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0C260ED03974E0C8C1B146A /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Regular.ttf"; path = "../src/Assets/fonts/ProximaNova-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEBABC2EEC194009A9547B96 /* ProximaNova-RegularIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-RegularIt.ttf"; path = "../src/Assets/fonts/ProximaNova-RegularIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C48FCF5CB85F459BBE632A1C /* ProximaNova-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.ttf"; path = "../src/Assets/fonts/ProximaNova-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72847B95BE0E4D319FEAE7EB /* ProximaNova-SemiboldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-SemiboldIt.ttf"; path = "../src/Assets/fonts/ProximaNova-SemiboldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C766EA2B4244FF685A36CA4 /* ProximaNovaCond-Light.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Light.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F668B7E451A14FE6BC5E3CD0 /* ProximaNovaCond-LightIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-LightIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B7FA6F6E8B44C928639141D /* ProximaNovaCond-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Regular.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B292445DAC2475188ED453F /* ProximaNovaCond-RegularIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-RegularIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-RegularIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDFB1593C7374B78833D3EDD /* ProximaNovaCond-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-Semibold.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B33797E913B0494FBFB9BB13 /* ProximaNovaCond-SemiboldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNovaCond-SemiboldIt.ttf"; path = "../src/Assets/fonts/ProximaNovaCond-SemiboldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCBC3E848E544B42A85A4C2A /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9A22D7947284F638514F8F2 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16A9AAA956B04063ADBAF1E0 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		536346E89B5F4CDBB97EE0DF /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEC294C7FDD746BF865D4602 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC1D59F8EC954EA0950B2F2C /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5255D370B7F74E15901389F1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A0217A8F19648C18DCF8E85 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD5773E359444726B51C465A /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E52077C54C75422FACF1F009 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3690758E23E4BEF900292F3 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,12 +443,11 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				C9739EBB9972460D8CB4A431 /* libRCTOrientation.a in Frameworks */,
-				6ED1CC65A0D8472CB4E9E36C /* libAirMaps.a in Frameworks */,
-				876AC0D0531D468A829A62A1 /* libBVLinearGradient.a in Frameworks */,
-				92743AC30B344BAAAA8878ED /* libRNSVG.a in Frameworks */,
-				D31F7E371C064F63A7B94BC6 /* libRNI18n.a in Frameworks */,
-				D6CC69440B964389951E8423 /* libRNVectorIcons.a in Frameworks */,
+				781EBEABD3E944E380D7BDC7 /* libRNI18n.a in Frameworks */,
+				DE7E353500E44DD8A0F7CA31 /* libBVLinearGradient.a in Frameworks */,
+				105AA531A73747BE87E933DC /* libRCTOrientation.a in Frameworks */,
+				8BA2281C900048D2B86B722E /* libRNSVG.a in Frameworks */,
+				9ED2FC30D9BE47DD9BD2E58C /* libRNVectorIcons.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,8 +463,8 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				295ECF1398FA4B1BBE2A714C /* libRNSVG-tvOS.a in Frameworks */,
-				EB3C668286D84AFB9AFD7028 /* libRNI18n-tvOS.a in Frameworks */,
+				BAE681FC12654715AC86C6C8 /* libRNI18n-tvOS.a in Frameworks */,
+				93D89E75A9FF4C0596FB744D /* libRNSVG-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,13 +521,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* PruebaAlmundoTests */ = {
+		00E356EF1AD99517003FC87E /* AlmundoPruebaTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PruebaAlmundoTests.m */,
+				00E356F21AD99517003FC87E /* AlmundoPruebaTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PruebaAlmundoTests;
+			path = AlmundoPruebaTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -540,7 +558,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PruebaAlmundo */ = {
+		13B07FAE1A68108700A75B9A /* AlmundoPrueba */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -551,7 +569,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PruebaAlmundo;
+			name = AlmundoPrueba;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -618,12 +636,11 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				626E3C19C7F24C1EA62FB49A /* RCTOrientation.xcodeproj */,
-				2443BDA03A7645CC90C6B103 /* AirMaps.xcodeproj */,
-				FCBA021E919846BAA5A5E360 /* BVLinearGradient.xcodeproj */,
-				21F2696590E3447BBF71FF1A /* RNSVG.xcodeproj */,
-				3C144F3FA87941498DF7F3C6 /* RNI18n.xcodeproj */,
-				FC73BD5268D843AEB262A728 /* RNVectorIcons.xcodeproj */,
+				4FE3527FD4F14899A04310EF /* RNI18n.xcodeproj */,
+				5CF088478AEC4AE0A2A9C890 /* BVLinearGradient.xcodeproj */,
+				19122B5E48C7430AA4D1B933 /* RCTOrientation.xcodeproj */,
+				C053E356B102407CBAC4AEE0 /* RNSVG.xcodeproj */,
+				3902EFEB20884B7C9651479C /* RNVectorIcons.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -640,12 +657,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PruebaAlmundo */,
+				13B07FAE1A68108700A75B9A /* AlmundoPrueba */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PruebaAlmundoTests */,
+				00E356EF1AD99517003FC87E /* AlmundoPruebaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				A61FC3F0B738405AA711366F /* Resources */,
+				0C7BE0F62EA446A586DB0C79 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -655,10 +672,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PruebaAlmundo.app */,
-				00E356EE1AD99517003FC87E /* PruebaAlmundoTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* PruebaAlmundo-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* PruebaAlmundo-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* AlmundoPrueba.app */,
+				00E356EE1AD99517003FC87E /* AlmundoPruebaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* AlmundoPrueba-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* AlmundoPrueba-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -672,25 +689,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A61FC3F0B738405AA711366F /* Resources */ = {
+		0C7BE0F62EA446A586DB0C79 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				A5A298967F3B46C29DD83C9E /* ProximaNova-Black.ttf */,
-				335A657AA39E4B4B98B853B8 /* ProximaNova-Bold.ttf */,
-				F5452792BBC2404F9E3B95C3 /* ProximaNova-BoldIt.ttf */,
-				8B8A9396B7544427BFE7C44F /* ProximaNova-Extrabld.ttf */,
-				6F0D71C1C2F54CD2890D83F1 /* ProximaNova-Light.ttf */,
-				AEFB7D9C249045CDAB6BD488 /* ProximaNova-LightIt.ttf */,
-				0512AEBEEB99444D97B0DC9F /* ProximaNova-Regular.ttf */,
-				9FAF973E187C443F804B064D /* ProximaNova-RegularIt.ttf */,
-				7E7345C763B64A178865DE3E /* ProximaNova-Semibold.ttf */,
-				D2A8F527BFB040A9BE674DE1 /* ProximaNova-SemiboldIt.ttf */,
-				AFC2279C02164B509181D34F /* ProximaNovaCond-Light.ttf */,
-				247CB353BA2E4CCE83875AB6 /* ProximaNovaCond-LightIt.ttf */,
-				09B56672D7334F8283E6BEA0 /* ProximaNovaCond-Regular.ttf */,
-				460FEE23934B492B87A86D58 /* ProximaNovaCond-RegularIt.ttf */,
-				76C6DE66DDF54816AE986E3F /* ProximaNovaCond-Semibold.ttf */,
-				420F5A425677489D8C9AA6BC /* ProximaNovaCond-SemiboldIt.ttf */,
+				E261096DC0EB49579C33D753 /* ProximaNova-Black.ttf */,
+				C0B092A1E7A34FA38EC5B8AB /* ProximaNova-Bold.ttf */,
+				38D795CAFC344B8F9CCD4199 /* ProximaNova-BoldIt.ttf */,
+				73AC32174A3846BDA6872C7D /* ProximaNova-Extrabld.ttf */,
+				3C08238E28C44AE78305AC02 /* ProximaNova-Light.ttf */,
+				D545DBE35CA847F69849B6BD /* ProximaNova-LightIt.ttf */,
+				E0C260ED03974E0C8C1B146A /* ProximaNova-Regular.ttf */,
+				CEBABC2EEC194009A9547B96 /* ProximaNova-RegularIt.ttf */,
+				C48FCF5CB85F459BBE632A1C /* ProximaNova-Semibold.ttf */,
+				72847B95BE0E4D319FEAE7EB /* ProximaNova-SemiboldIt.ttf */,
+				5C766EA2B4244FF685A36CA4 /* ProximaNovaCond-Light.ttf */,
+				F668B7E451A14FE6BC5E3CD0 /* ProximaNovaCond-LightIt.ttf */,
+				5B7FA6F6E8B44C928639141D /* ProximaNovaCond-Regular.ttf */,
+				4B292445DAC2475188ED453F /* ProximaNovaCond-RegularIt.ttf */,
+				CDFB1593C7374B78833D3EDD /* ProximaNovaCond-Semibold.ttf */,
+				B33797E913B0494FBFB9BB13 /* ProximaNovaCond-SemiboldIt.ttf */,
+				FCBC3E848E544B42A85A4C2A /* Entypo.ttf */,
+				D9A22D7947284F638514F8F2 /* EvilIcons.ttf */,
+				16A9AAA956B04063ADBAF1E0 /* Feather.ttf */,
+				536346E89B5F4CDBB97EE0DF /* FontAwesome.ttf */,
+				EEC294C7FDD746BF865D4602 /* Foundation.ttf */,
+				BC1D59F8EC954EA0950B2F2C /* Ionicons.ttf */,
+				5255D370B7F74E15901389F1 /* MaterialCommunityIcons.ttf */,
+				0A0217A8F19648C18DCF8E85 /* MaterialIcons.ttf */,
+				DD5773E359444726B51C465A /* Octicons.ttf */,
+				E52077C54C75422FACF1F009 /* SimpleLineIcons.ttf */,
+				F3690758E23E4BEF900292F3 /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -699,9 +727,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PruebaAlmundoTests */ = {
+		00E356ED1AD99517003FC87E /* AlmundoPruebaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PruebaAlmundoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AlmundoPruebaTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -712,14 +740,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PruebaAlmundoTests;
-			productName = PruebaAlmundoTests;
-			productReference = 00E356EE1AD99517003FC87E /* PruebaAlmundoTests.xctest */;
+			name = AlmundoPruebaTests;
+			productName = AlmundoPruebaTests;
+			productReference = 00E356EE1AD99517003FC87E /* AlmundoPruebaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PruebaAlmundo */ = {
+		13B07F861A680F5B00A75B9A /* AlmundoPrueba */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PruebaAlmundo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlmundoPrueba" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -730,14 +758,14 @@
 			);
 			dependencies = (
 			);
-			name = PruebaAlmundo;
+			name = AlmundoPrueba;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* PruebaAlmundo.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* AlmundoPrueba.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* PruebaAlmundo-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* AlmundoPrueba-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PruebaAlmundo-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlmundoPrueba-tvOS" */;
 			buildPhases = (
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -748,14 +776,14 @@
 			);
 			dependencies = (
 			);
-			name = "PruebaAlmundo-tvOS";
-			productName = "PruebaAlmundo-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* PruebaAlmundo-tvOS.app */;
+			name = "AlmundoPrueba-tvOS";
+			productName = "AlmundoPrueba-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* AlmundoPrueba-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* PruebaAlmundo-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* AlmundoPrueba-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PruebaAlmundo-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlmundoPrueba-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -766,9 +794,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "PruebaAlmundo-tvOSTests";
-			productName = "PruebaAlmundo-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* PruebaAlmundo-tvOSTests.xctest */;
+			name = "AlmundoPrueba-tvOSTests";
+			productName = "AlmundoPrueba-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* AlmundoPrueba-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -795,7 +823,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PruebaAlmundo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AlmundoPrueba" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -858,10 +886,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PruebaAlmundo */,
-				00E356ED1AD99517003FC87E /* PruebaAlmundoTests */,
-				2D02E47A1E0B4A5D006451C7 /* PruebaAlmundo-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* PruebaAlmundo-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* AlmundoPrueba */,
+				00E356ED1AD99517003FC87E /* AlmundoPruebaTests */,
+				2D02E47A1E0B4A5D006451C7 /* AlmundoPrueba-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* AlmundoPrueba-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1142,22 +1170,33 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				3ACAB7FD2B0C4B64B08C6FF2 /* ProximaNova-Black.ttf in Resources */,
-				CF8A112C5F2B40FF8AA2717E /* ProximaNova-Bold.ttf in Resources */,
-				BBC20B11881D4BAB8A051A7A /* ProximaNova-BoldIt.ttf in Resources */,
-				8CEAF36AB413457F9076A027 /* ProximaNova-Extrabld.ttf in Resources */,
-				6EF79E9065EF463D8CAC2D68 /* ProximaNova-Light.ttf in Resources */,
-				77579B19647A4139A5935522 /* ProximaNova-LightIt.ttf in Resources */,
-				E2D6E370D69047E29A974D87 /* ProximaNova-Regular.ttf in Resources */,
-				31A27BA1C8D8411097E3D951 /* ProximaNova-RegularIt.ttf in Resources */,
-				F135DEACE45D4134BE1B7F9C /* ProximaNova-Semibold.ttf in Resources */,
-				5D35730BECF34A7591A04867 /* ProximaNova-SemiboldIt.ttf in Resources */,
-				4C7843CBA7D64BB48C197A1D /* ProximaNovaCond-Light.ttf in Resources */,
-				06FA838545A244B9882B325D /* ProximaNovaCond-LightIt.ttf in Resources */,
-				5438C6FCFB9B44BDB5975134 /* ProximaNovaCond-Regular.ttf in Resources */,
-				C0C106A8EBBA4410AE8F52FC /* ProximaNovaCond-RegularIt.ttf in Resources */,
-				06A65511698C440C9FDB1E98 /* ProximaNovaCond-Semibold.ttf in Resources */,
-				0B86C8B963B84F89AF5FA42D /* ProximaNovaCond-SemiboldIt.ttf in Resources */,
+				FCB4CB9618C3459E9C97CD99 /* ProximaNova-Black.ttf in Resources */,
+				6E75C7F9EB9F4AF8AB00984D /* ProximaNova-Bold.ttf in Resources */,
+				82D986024804482FAC81C636 /* ProximaNova-BoldIt.ttf in Resources */,
+				E45C3518312848AABC07C862 /* ProximaNova-Extrabld.ttf in Resources */,
+				379EF302BCFA4AFE9A08345D /* ProximaNova-Light.ttf in Resources */,
+				CBC288D2BFD24A289649161A /* ProximaNova-LightIt.ttf in Resources */,
+				E72DB1F54244437DAE33CE76 /* ProximaNova-Regular.ttf in Resources */,
+				79975C733E224F0FAF9014EA /* ProximaNova-RegularIt.ttf in Resources */,
+				D9CB4CAD5CDE40559ACCCE79 /* ProximaNova-Semibold.ttf in Resources */,
+				5A78F3EC1A1D4F079AA86E41 /* ProximaNova-SemiboldIt.ttf in Resources */,
+				FE125760D76F46019A29F86C /* ProximaNovaCond-Light.ttf in Resources */,
+				B3194C2599DF47FCA40582DC /* ProximaNovaCond-LightIt.ttf in Resources */,
+				F9EE16C0328C4F999F1D81A1 /* ProximaNovaCond-Regular.ttf in Resources */,
+				A84DC96E221A42CBA4347598 /* ProximaNovaCond-RegularIt.ttf in Resources */,
+				F17A5D24A002410798980B82 /* ProximaNovaCond-Semibold.ttf in Resources */,
+				5EB129860DCD495A9FB9E5B9 /* ProximaNovaCond-SemiboldIt.ttf in Resources */,
+				3F592B3F2EE44CE685589337 /* Entypo.ttf in Resources */,
+				07119BCB1EFC4EAF8490AE42 /* EvilIcons.ttf in Resources */,
+				1362B21653864545BFD7C304 /* Feather.ttf in Resources */,
+				E72FA10D38D54CDDBAE537F8 /* FontAwesome.ttf in Resources */,
+				181A5B9D93544FFCBFF0B1E7 /* Foundation.ttf in Resources */,
+				4A54CD2CBBCA43BAAB1C4E6C /* Ionicons.ttf in Resources */,
+				0AD9F2DD5073478689DA7F02 /* MaterialCommunityIcons.ttf in Resources */,
+				161DE3348B32475CBE11353C /* MaterialIcons.ttf in Resources */,
+				1A651BEF771F41C1B785FCBC /* Octicons.ttf in Resources */,
+				56C8B8B558C44A259BE16AE4 /* SimpleLineIcons.ttf in Resources */,
+				E51D6C022FA842A19804535B /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,7 +1253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PruebaAlmundoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* AlmundoPruebaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1240,7 +1279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* PruebaAlmundoTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* AlmundoPruebaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,12 +1288,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PruebaAlmundo */;
+			target = 13B07F861A680F5B00A75B9A /* AlmundoPrueba */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* PruebaAlmundo-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* AlmundoPrueba-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1266,7 +1305,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PruebaAlmundo;
+			path = AlmundoPrueba;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1280,7 +1319,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PruebaAlmundoTests/Info.plist;
+				INFOPLIST_FILE = AlmundoPruebaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1288,7 +1327,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaAlmundo.app/PruebaAlmundo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlmundoPrueba.app/AlmundoPrueba";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1301,11 +1340,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1316,7 +1354,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PruebaAlmundoTests/Info.plist;
+				INFOPLIST_FILE = AlmundoPruebaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1324,7 +1362,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaAlmundo.app/PruebaAlmundo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlmundoPrueba.app/AlmundoPrueba";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1337,11 +1375,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1353,22 +1390,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = PruebaAlmundo/Info.plist;
+				INFOPLIST_FILE = AlmundoPrueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = PruebaAlmundo;
+				PRODUCT_NAME = AlmundoPrueba;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1379,22 +1415,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = PruebaAlmundo/Info.plist;
+				INFOPLIST_FILE = AlmundoPrueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = PruebaAlmundo;
+				PRODUCT_NAME = AlmundoPrueba;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1412,13 +1447,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PruebaAlmundo-tvOS/Info.plist";
+				INFOPLIST_FILE = "AlmundoPrueba-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PruebaAlmundo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlmundoPrueba-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1435,11 +1470,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1457,13 +1491,13 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PruebaAlmundo-tvOS/Info.plist";
+				INFOPLIST_FILE = "AlmundoPrueba-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PruebaAlmundo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlmundoPrueba-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1480,11 +1514,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1501,16 +1534,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PruebaAlmundo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AlmundoPrueba-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PruebaAlmundo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlmundoPrueba-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaAlmundo-tvOS.app/PruebaAlmundo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlmundoPrueba-tvOS.app/AlmundoPrueba-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1524,11 +1557,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1545,16 +1577,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PruebaAlmundo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AlmundoPrueba-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PruebaAlmundo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlmundoPrueba-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaAlmundo-tvOS.app/PruebaAlmundo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlmundoPrueba-tvOS.app/AlmundoPrueba-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1568,11 +1600,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
-					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-orientation/iOS/RCTOrientation/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 				);
 			};
@@ -1657,7 +1688,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PruebaAlmundoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AlmundoPruebaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1666,7 +1697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PruebaAlmundo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlmundoPrueba" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1675,7 +1706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PruebaAlmundo-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlmundoPrueba-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1684,7 +1715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PruebaAlmundo-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlmundoPrueba-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1693,7 +1724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PruebaAlmundo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AlmundoPrueba" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

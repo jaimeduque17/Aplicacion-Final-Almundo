@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "font": "gulp export-icon-fonts && gulp resource-copy && gulp build && react-native run-android",
-    "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "npm run build && concurrently -r 'npm run watch' 'react-native run-android'",
     "ios": "npm run build && concurrently -r 'npm run watch' 'react-native run-ios'",

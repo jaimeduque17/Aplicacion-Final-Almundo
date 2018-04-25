@@ -4,6 +4,7 @@ import { Router, Scene } from 'react-native-router-flux'
 import Flight from '../Containers/Flight/Index'
 import FlightRound from '../Containers/FlightRound/Index'
 import FlightMulti from '../Containers/FlightMulti/Index'
+// import Detail from '../Containers/Detail'
 
 const Routes = () => (
   <View style={{ flex: 1}}>

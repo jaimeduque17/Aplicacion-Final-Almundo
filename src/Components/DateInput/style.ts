@@ -1,5 +1,5 @@
 export default {
-    styBox: {
+    containerBtn: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -11,10 +11,10 @@ export default {
         overflow: 'hidden',
         backgroundColor: 'rgb(240, 240, 240)'
     },
-    styBoxText: {
+    containerText: {
         alignItems: 'flex-start'
     },
-    styLabel: {
+    txtLabel: {
         fontSize: 12,
         lineHeight: 12,
         paddingVertical: 2,
@@ -22,17 +22,17 @@ export default {
         fontWeight: '600',
         color: 'rgb(64, 63, 63)'
     },
-    styText: {
+    txtDate: {
         fontSize: 14,
         lineHeight: 14,
         paddingVertical: 2,
         letterSpacing: 0,
         color: 'rgba(100, 100, 100, 1.0)'
-    },
-    styIconCalendar: {
-        fontSize: 20,
-        justifyContent: 'center',
-        color: 'rgb(100, 100, 100)',
-        margin: 5
     }
+    // styIconCalendar: {
+    //     fontSize: 20,
+    //     justifyContent: 'center',
+    //     color: 'rgb(100, 100, 100)',
+    //     margin: 5
+    // }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity, DatePickerAndroid, Platform, StyleSheet } from 'react-native'
-import Icon from 'react-native-vector-icons/MaterialIcons'
+// import Icon from 'react-native-vector-icons/MaterialIcons'
 import _styles from './style'
 import { getComponentStyle } from '../../Helpers/Stylus'
 const styles = StyleSheet.create(getComponentStyle(_styles))
@@ -31,18 +31,18 @@ class DateInput extends Component<{ Props }> {
 
     render() {
         return (
-            <TouchableOpacity style={styles.styBox}
+            <TouchableOpacity style={styles.containerBtn}
                 activeOpacity={1}
                 onPress={() => {
                     if (Platform.OS !== 'ios') {
                         this.showAndroidDatePicker()
                     }
                 }}>
-                <View style={styles.styBoxText}>
-                    <Text style={styles.styLabel}>{this.props.textLabel}</Text>
-                    <Text style={styles.styText}>{this.state.dateValueLocal.toLocaleDateString()}</Text>
+                <View style={styles.containerText}>
+                    <Text style={styles.txtLabel}>{this.props.textLabel}</Text>
+                    <Text style={styles.txtDate}>{this.state.dateValueLocal.toLocaleDateString()}</Text>
                 </View>
-                <Icon style={styles.styIconCalendar} name={'event'} />
+                {/* <Icon style={styles.styIconCalendar} name={'event'} /> */}
             </TouchableOpacity>
         )
     }
