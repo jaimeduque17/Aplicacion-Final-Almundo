@@ -9,10 +9,19 @@ import { getComponentStyle } from '../../Helpers/Stylus'
 import { Icon } from '../../Helpers/Icons'
 import { Actions } from 'react-native-router-flux'
 
-class NavBar extends Component {
+export default class NavBar extends Component {
     constructor(props) {
         super(props)
-        this.state = {}
+        this.state = {
+            botones: [{ nombre: 'SOLO IDA', accion: this.props.soloida },
+            { nombre: 'IDA Y VUELTA', accion: this.props.idayvuelta },
+            { nombre: 'MULTIDESTINO', accion: this.props.multidestino }]
+        }
+        this.back = this.back.bind(this)
+    }
+
+    back() {
+        Actions.pop()
     }
 
     render() {
@@ -27,37 +36,28 @@ class NavBar extends Component {
             y: 3,
             style: { marginBottom: 2 }
         }
+        const { botones } = this.state
         return (
             <BoxShadow setting={shadowOpt} >
-                    <View style={styles.containerCentral}>
-                        <TouchableOpacity style={styles.btnBack}>
-                            <Icon iconName='back' iconStyle={styles.iconBack} />
-                        </TouchableOpacity>
-                        <View style={styles.containerTitle}>
-                            <Text numberOfLines={1} style={styles.titlePrincipal}>{'Vuelos'}</Text>
-                        </View>
-                    </View>
-                    <View style={styles.containerBtns}>
-                        <TouchableOpacity style={styles.btnAnimation}
-                        onPress={() => { Actions.flight() }}>
-                            <Text style={styles.txtOrder}>{'SOLO IDA'}</Text>
-                        </TouchableOpacity>
-                        <View style={styles.breakBar1}></View>
-                        <TouchableOpacity style={styles.btnAnimation}
-                        onPress={() => { Actions.flightRound() }}>
-                            <Text style={styles.txtFilter}>{'IDA Y VUELTA'}</Text>
-                        </TouchableOpacity>
-                        <View style={styles.breakBar2}></View>
-                        <TouchableOpacity style={styles.btnAnimation}
-                        onPress={() => { Actions.flightMulti() }}>
-                            <Text style={styles.txtMap}>{'MULTIDESTINO'}</Text>
-                        </TouchableOpacity>
-                    </View>
+                <View style={styles.containerCentral}>
+                    <TouchableOpacity onPress={this.back} style={styles.btnBack}>
+                        <Icon iconName='back' iconStyle={styles.iconBack} />
+                    </TouchableOpacity>
+                    <View style={styles.containerTitle}>
+                        <Text numberOfLines={1} style={styles.titlePrincipal}>{'Vuelos'}</Text>
+                    </ View>
+                </View>
+                <View style={styles.containerBtns}>
+                    <View style={styles.breakBar1} />
+                    <View style={styles.breakBar2} />
+                    {botones.map((boton, index) => <TouchableOpacity key={index} onPress={boton.accion}
+                        style={styles.btnAnimation}>
+                        <Text style={styles.buttonText}>{boton.nombre}</Text>
+                    </TouchableOpacity>)}
+                </View>
             </BoxShadow>
         )
     }
 }
 
 const styles = getComponentStyle(_styles)
-
-export default NavBar

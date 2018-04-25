@@ -45,6 +45,7 @@ export default {
     height: 40,
     width: 120,
     alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.05)'
   },
   circle: {
@@ -56,15 +57,6 @@ export default {
     backgroundColor: 'rgba(254, 254, 254, 0.3)',
     opacity: 0
   },
-  txtOrder: {
-    fontFamily: Fonts.SEMIBOLD,
-    fontSize: 12,
-    letterSpacing: 0.43,
-    marginTop: 13,
-    marginLeft: 30,
-    color: 'rgb(255, 255, 255)',
-    position: 'absolute'
-  },
   breakBar1: {
     width: 1,
     height: 24,
@@ -73,16 +65,6 @@ export default {
     borderColor: 'rgba(255, 255, 255, 0.3)',
     top: 8,
     left: 119,
-    position: 'absolute'
-  },
-  txtFilter: {
-    fontFamily: Fonts.SEMIBOLD,
-    fontSize: 12,
-    textAlign: 'center',
-    letterSpacing: 0.43,
-    marginTop: 13,
-    marginLeft: 15,
-    color: 'rgba(255, 255, 255, 1)',
     position: 'absolute'
   },
   breakBar2: {
@@ -95,14 +77,11 @@ export default {
     left: 238,
     position: 'absolute'
   },
-  txtMap: {
+  buttonText: {
     fontFamily: Fonts.SEMIBOLD,
     fontSize: 12,
     textAlign: 'center',
     letterSpacing: 0.43,
-    marginTop: 13,
-    marginLeft: 15,
-    color: 'rgba(255, 255, 255, 1)',
-    position: 'absolute'
+    color: 'rgba(255, 255, 255, 1)'
   }
 }

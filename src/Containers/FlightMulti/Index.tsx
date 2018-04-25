@@ -21,6 +21,8 @@ export default class App extends Component {
           <TouchableOpacity style={styles.btnStyle}>
               <Text style={styles.btnSearch}>{'BUSCAR'}</Text>
           </TouchableOpacity>
+          <View style={styles.coverTextInput1}></View>
+          <View style={styles.coverTextInput2}></View>
         </ScrollView>
       </View>
     )

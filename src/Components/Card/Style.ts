@@ -25,15 +25,7 @@ export default {
     marginRight: 8,
     color: 'rgb(143, 143, 143)'
   },
-  textInputDate1: {
-    fontSize: 12,
-    letterSpacing: 0,
-    marginTop: 8,
-    marginLeft: 8,
-    width: 130,
-    color: 'rgb(143, 143, 143)'
-  },
-  textInputDate2: {
+  textDate: {
     fontSize: 12,
     letterSpacing: 0,
     marginTop: 8,
