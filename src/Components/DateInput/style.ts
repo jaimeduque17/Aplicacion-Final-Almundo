@@ -27,12 +27,6 @@ export default {
         lineHeight: 14,
         paddingVertical: 2,
         letterSpacing: 0,
-        color: 'rgba(100, 100, 100, 1.0)'
+        color: 'rgb(100, 100, 100)'
     }
-    // styIconCalendar: {
-    //     fontSize: 20,
-    //     justifyContent: 'center',
-    //     color: 'rgb(100, 100, 100)',
-    //     margin: 5
-    // }
 }

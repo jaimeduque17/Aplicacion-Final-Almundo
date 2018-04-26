@@ -1,4 +1,7 @@
 export default {
+  containerPrincipal: {
+    flexDirection: 'column'
+  },
   container1: {
     backgroundColor: 'rgb(248, 248, 248))',
     width: 360,

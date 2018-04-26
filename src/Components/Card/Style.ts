@@ -4,7 +4,6 @@ export default {
     marginTop: 30,
     marginLeft: 16,
     height: 330,
-    // 280
     width: 328,
     backgroundColor: 'rgb(255, 255, 250)',
     elevation: 3

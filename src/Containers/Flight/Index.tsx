@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import { View, TouchableOpacity, Text, FlatList, Alert } from 'react-native'
-// import { Icon } from '../../Helpers/Icons'
+import { View, TouchableOpacity, Text } from 'react-native'
 import { getComponentStyle } from '../../Helpers/Stylus'
 import Card from '../../Components/Card'
-// import CardTo from '../../Components/CardTo'
 import NavBar from '../../Components/NavBar'
 import _styles from './Style'
 import { searchFlightsDeparture, searchFlightsReturn } from '../../Services/Index'
@@ -39,7 +37,6 @@ export default class Flight extends Component {
   getFlights() {
     const { vista } = this.state
     if ('SOLO-IDA' === vista) {
-      console.log('Entre aqui')
       return this.departureFlights()
     }
     if ('IDA-VUELTA' === vista) {
@@ -54,7 +51,6 @@ export default class Flight extends Component {
     const { origen, destino, fechaIda } = this.state
     const date = Sugar.Date(fechaIda).format('{dd}-{MM}-{yyyy}').raw
     const query = `origin=${origen}&destination=${destino}&dateDeparture=${date}`
-    console.log('Soy el query', query)
     const data = await searchFlightsDeparture(query)
     Actions.push('listflights', { data: data })
   }
@@ -130,9 +126,8 @@ export default class Flight extends Component {
   }
 
   render() {
-    console.log('Soy el hpta origin', this.state.origen)
     return (
-      <View style={{ flexDirection: 'column' }}>
+      <View style={styles.containerPrincipal}>
         <NavBar soloida={this.onClickSoloIda} idayvuelta={this.onClickIdaYVuelta}
           multidestino={this.onClickMultidestino} />
         <View style={styles.container1}>

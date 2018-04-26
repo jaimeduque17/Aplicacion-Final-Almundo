@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity, DatePickerAndroid, Platform, StyleSheet } from 'react-native'
-// import Icon from 'react-native-vector-icons/MaterialIcons'
 import _styles from './style'
 import { getComponentStyle } from '../../Helpers/Stylus'
 const styles = StyleSheet.create(getComponentStyle(_styles))
@@ -21,7 +20,6 @@ class DateInput extends Component<{ Props }> {
             })
             if (action !== DatePickerAndroid.dismissedAction) {
                 const date = new Date(year, month, day)
-                // const date = Sugar.Date(_date).format('{dd}-{MM}-{yyyy}')
                 this.setState({ dateValueLocal: date })
                 onchangeDate(date)
             }
@@ -43,7 +41,6 @@ class DateInput extends Component<{ Props }> {
                     <Text style={styles.txtLabel}>{this.props.textLabel}</Text>
                     <Text style={styles.txtDate}>{this.state.dateValueLocal.toLocaleDateString()}</Text>
                 </View>
-                {/* <Icon style={styles.styIconCalendar} name={'event'} /> */}
             </TouchableOpacity>
         )
     }

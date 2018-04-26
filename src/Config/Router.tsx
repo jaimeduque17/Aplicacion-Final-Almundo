@@ -14,8 +14,6 @@ const Routes = () => (
         <Scene key='flight' initial={true} component={Flight} hideNavBar />
         <Scene key='detailflights' component={DetailFlight} title='Detalle Destino' />
         <Scene key='listflights' component={ListFlights} title='Lista de Vuelos' />
-        <Scene key='flightRound' component={FlightRound} hideNavBar />
-        <Scene key='flightMulti' component={FlightMulti} hideNavBar />
       </Scene>
     </Router>
   </View>

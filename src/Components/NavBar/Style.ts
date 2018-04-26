@@ -1,5 +1,3 @@
-import { Fonts } from '../../Config/Constant'
-
 export default {
   containerCentral: {
     alignItems: 'center',
@@ -21,7 +19,7 @@ export default {
   },
   iconBack: {
     fontSize: 20,
-    color: 'rgba(255,255,255,1)'
+    color: 'rgb(255,255,255)'
   },
   containerTitle: {
     width: 260,
@@ -29,7 +27,6 @@ export default {
   },
   titlePrincipal: {
     maxWidth: 190,
-    fontFamily: Fonts.SEMIBOLD,
     fontSize: 20,
     lineHeight: 24,
     marginTop: .66,
@@ -46,7 +43,7 @@ export default {
     width: 120,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.05)'
+    backgroundColor: 'rgb(0, 151, 204)'
   },
   circle: {
     alignItems: 'center',
@@ -54,7 +51,7 @@ export default {
     width: 30,
     height: 30,
     borderRadius: 15,
-    backgroundColor: 'rgba(254, 254, 254, 0.3)',
+    backgroundColor: 'rgba(254, 254, 254)',
     opacity: 0
   },
   breakBar1: {
@@ -62,7 +59,7 @@ export default {
     height: 24,
     borderStyle: 'solid',
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.3)',
+    borderColor: 'rgb(255, 255, 255)',
     top: 8,
     left: 119,
     position: 'absolute'
@@ -72,16 +69,15 @@ export default {
     height: 24,
     borderStyle: 'solid',
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.3)',
+    borderColor: 'rgb(255, 255, 255)',
     top: 8,
     left: 238,
     position: 'absolute'
   },
   buttonText: {
-    fontFamily: Fonts.SEMIBOLD,
     fontSize: 12,
     textAlign: 'center',
     letterSpacing: 0.43,
-    color: 'rgba(255, 255, 255, 1)'
+    color: 'rgb(255, 255, 255)'
   }
 }

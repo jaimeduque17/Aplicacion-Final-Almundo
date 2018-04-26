@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, TextInput, Text, Picker } from 'react-native'
+import { View, Text, Picker } from 'react-native'
 import DateInput from '../DateInput'
 import _styles from './Style'
 import { getComponentStyle } from '../../Helpers/Stylus'

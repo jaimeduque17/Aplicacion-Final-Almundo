@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, TouchableOpacity, Text, , Image } from 'react-native'
+import { View, TouchableOpacity, Text, Image } from 'react-native'
 import { getComponentStyle } from '../../Helpers/Stylus'
 import _styles from './Style'
 
@@ -7,32 +7,23 @@ export default class FlightDetail extends Component {
   render() {
     const { data } = this.props
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Image style={{ width: 360, height: 300 }} source={{ uri: data.image }} />
-        <View style={{
-          borderBottomWidth: 1, padding: 15, width: 360, flexDirection: 'row',
-          justifyContent: 'space-between'
-        }}>
-          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{'Origen'}</Text>
-          <Text style={{ fontSize: 20 }}>{data.origin.name}</Text>
+      <View style={styles.containerPrincipal}>
+        <Image style={styles.imgStyle} source={{ uri: data.image }} />
+        <View style={styles.container1}>
+          <Text style={styles.txtOrigenStyle}>{'Origen'}</Text>
+          <Text style={styles.txtDataOrigin}>{data.origin.name}</Text>
         </View>
-        <View style={{
-          borderBottomWidth: 1, padding: 15, width: 360, flexDirection: 'row',
-          justifyContent: 'space-between'
-        }}>
-          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{'Destino'}</Text>
-          <Text style={{ fontSize: 20 }}>{data.destination.name}</Text>
+        <View style={styles.container2}>
+          <Text style={styles.txtDestinoStyle}>{'Destino'}</Text>
+          <Text style={styles.txtDataDestination}>{data.destination.name}</Text>
         </View>
-        <View style={{
-          borderBottomWidth: 1, padding: 15, width: 360, flexDirection: 'row',
-          justifyContent: 'space-between'
-        }}>
-          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{'Hora Salia'}</Text>
-          <Text style={{ fontSize: 20 }}>{data.hourDeparture}</Text>
+        <View style={styles.container3}>
+          <Text style={styles.txtHoraSalida}>{'Hora Salida'}</Text>
+          <Text style={styles.txtDataHora}>{data.hourDeparture}</Text>
         </View>
 
-        <TouchableOpacity style={{ marginTop: 30, padding: 10, justifyContent: 'center', alignItems: 'center', backgroundColor: 'green' }}>
-          <Text style={{ color: 'white', fontSize: 20 }}>{`Comprar Vuelo a $${data.price}`}</Text>
+        <TouchableOpacity style={styles.btnComprar}>
+          <Text style={styles.txtComprar}>{`Comprar Vuelo a $${data.price}`}</Text>
         </TouchableOpacity>
       </View >
     )
