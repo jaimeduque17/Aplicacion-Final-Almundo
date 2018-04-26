@@ -1,13 +1,19 @@
 import React from 'react'
 import { View } from 'react-native'
 import { Router, Scene } from 'react-native-router-flux'
-import HotelsResult from '../Containers/Flight/Index'
+import Flight from '../Containers/Flight/Index'
+import FlightRound from '../Containers/FlightRound/Index'
+import FlightMulti from '../Containers/FlightMulti/Index'
+import ListFlights from '../Containers/ListFlights'
+import DetailFlight from '../Containers/FlightDetail'
 
 const Routes = () => (
-  <View style={{ flex: 1}}>
+  <View style={{ flex: 1 }}>
     <Router>
       <Scene key='root'>
-        <Scene key='home' component={HotelsResult} title='HotelsResult' hideNavBar={true} />
+        <Scene key='flight' initial={true} component={Flight} hideNavBar />
+        <Scene key='detailflights' component={DetailFlight} title='Detalle Destino' />
+        <Scene key='listflights' component={ListFlights} title='Lista de Vuelos' />
       </Scene>
     </Router>
   </View>

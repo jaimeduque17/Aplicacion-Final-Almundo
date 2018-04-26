@@ -1,82 +1,56 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
-import LinearGradient from 'react-native-linear-gradient'
-import * as Animatable from 'react-native-animatable'
 import _styles from './Style'
-import { initializeButtonAnimate } from '../../Helpers/Animated'
+import { BoxShadow } from 'react-native-shadow'
 import { getComponentStyle } from '../../Helpers/Stylus'
-import { Icon } from '../../Helpers/Icons'
+import { Actions } from 'react-native-router-flux'
 
-class NavBar extends Component {
+export default class NavBar extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            botones: [{ nombre: 'SOLO IDA', accion: this.props.soloida },
+            { nombre: 'IDA Y VUELTA', accion: this.props.idayvuelta },
+            { nombre: 'MULTIDESTINO', accion: this.props.multidestino }]
+        }
+        this.back = this.back.bind(this)
+    }
+
+    back() {
+        Actions.pop()
+    }
 
     render() {
-
-        initializeButtonAnimate()
-        let btnOrder: any
-        let btnFilter: any
-        let btnMap: any
-
-        const handlerbtnOrder = ref => btnOrder = ref
-        const handlerbtnFilter = ref => btnFilter = ref
-        const handlerbtnMap = ref => btnMap = ref
-
-        function order() {
-            btnOrder.zoomOut()
+        const shadowOpt = {
+            width: 360,
+            height: 128,
+            color: '#fff',
+            border: 1,
+            radius: 1,
+            opacity: 0.7,
+            x: 0,
+            y: 3,
+            style: { marginBottom: 2 }
         }
-
-        function filter() {
-            btnFilter.zoomOut()
-        }
-
-        function map() {
-            btnMap.zoomOut()
-        }
+        const { botones } = this.state
         return (
-            <LinearGradient
-                colors={['rgb(239, 83, 117)', 'rgb(234, 100, 34)']}
-                start={{ x: 0.0, y: 0.0 }} end={{ x: 1.0, y: 1.0 }}
-                style={{ width: 360, height: 128 }}>
+            <BoxShadow setting={shadowOpt} >
                 <View style={styles.containerCentral}>
-                    <TouchableOpacity style={styles.btnBack}>
-                        <Icon iconName='back' iconStyle={styles.iconBack} />
-                    </TouchableOpacity>
                     <View style={styles.containerTitle}>
                         <Text numberOfLines={1} style={styles.titlePrincipal}>{'Vuelos'}</Text>
-                    </View>
+                    </ View>
                 </View>
                 <View style={styles.containerBtns}>
-                    <TouchableOpacity style={styles.btnAnimation} onPress={() => order()}>
-                        <Animatable.View
-                            ref={handlerbtnOrder}
-                            duration={1000}
-                            style={styles.circle}>
-                        </Animatable.View>
-                        <Text style={styles.txtOrder}>{'SOLO IDA'}</Text>
-                    </TouchableOpacity>
-                    <View style={styles.breakBar1}></View>
-                    <TouchableOpacity style={styles.btnAnimation} onPress={() => filter()}>
-                        <Animatable.View
-                            ref={handlerbtnFilter}
-                            duration={1000}
-                            style={styles.circle}>
-                        </Animatable.View>
-                        <Text style={styles.txtFilter}>{'IDA Y VUELTA'}</Text>
-                    </TouchableOpacity>
-                    <View style={styles.breakBar2}></View>
-                    <TouchableOpacity style={styles.btnAnimation} onPress={() => map()}>
-                        <Animatable.View
-                            ref={handlerbtnMap}
-                            duration={1000}
-                            style={styles.circle}>
-                        </Animatable.View>
-                        <Text style={styles.txtMap}>{'MULTIDESTINO'}</Text>
-                    </TouchableOpacity>
+                    <View style={styles.breakBar1} />
+                    <View style={styles.breakBar2} />
+                    {botones.map((boton, index) => <TouchableOpacity key={index} onPress={boton.accion}
+                        style={styles.btnAnimation}>
+                        <Text style={styles.buttonText}>{boton.nombre}</Text>
+                    </TouchableOpacity>)}
                 </View>
-            </LinearGradient>
+            </BoxShadow>
         )
     }
 }
 
 const styles = getComponentStyle(_styles)
-
-export default NavBar
