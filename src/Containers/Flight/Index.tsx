@@ -6,7 +6,7 @@ import Card from '../../Components/Card'
 // import CardTo from '../../Components/CardTo'
 import NavBar from '../../Components/NavBar'
 import _styles from './Style'
-import { searchFlightsDeparture } from '../../Services/Index'
+import { searchFlightsDeparture, searchFlightsReturn } from '../../Services/Index'
 import Sugar from 'sugar'
 import { Actions } from 'react-native-router-flux'
 
@@ -18,7 +18,7 @@ export default class Flight extends Component {
       origen: '',
       destino: '',
       fechaIda: new Date(),
-      fechaVuelta: ''
+      fechaVuelta: new Date()
 
     }
 
@@ -33,6 +33,7 @@ export default class Flight extends Component {
     this.selectOrigin = this.selectOrigin.bind(this)
     this.selectDestino = this.selectDestino.bind(this)
     this.selectFechaIda = this.selectFechaIda.bind(this)
+    this.selectFechaVuelta = this.selectFechaVuelta.bind(this)
   }
 
   getFlights() {
@@ -50,21 +51,26 @@ export default class Flight extends Component {
   }
 
   async departureFlights() {
-    try {
-      const { origen, destino, fechaIda } = this.state
-      const date = Sugar.Date(fechaIda).format('{dd}-{MM}-{yyyy}').raw
-      const query = `origin=${origen}&destination=${destino}&dateDeparture=${date}`
-      console.log('Soy el query', query)
-      const data = await searchFlightsDeparture(query)
-      Actions.push('listflights', { data: data })
-
-    } catch (error) {
-      console.log('soy error', error)
-    }
+    const { origen, destino, fechaIda } = this.state
+    const date = Sugar.Date(fechaIda).format('{dd}-{MM}-{yyyy}').raw
+    const query = `origin=${origen}&destination=${destino}&dateDeparture=${date}`
+    console.log('Soy el query', query)
+    const data = await searchFlightsDeparture(query)
+    Actions.push('listflights', { data: data })
   }
 
-  returnFlights() {
-    console.log('Boton de Ida y Vuelta')
+  async returnFlights() {
+    let idaVuelta = { ida: [], vuelta: [] }
+    const { origen, destino, fechaIda, fechaVuelta } = this.state
+    const dateIda = Sugar.Date(fechaIda).format('{dd}-{MM}-{yyyy}').raw
+    const dateVuelta = Sugar.Date(fechaVuelta).format('{dd}-{MM}-{yyyy}').raw
+    const queryIda = `origin=${origen}&destination=${destino}&dateDeparture=${dateIda}`
+    const queryVuelta = `origin=${origen}&destination=${destino}&dateReturn=${dateVuelta}`
+    const dataIda = await searchFlightsDeparture(queryIda)
+    const dataVuelta = await searchFlightsReturn(queryVuelta)
+    idaVuelta.ida = dataIda
+    idaVuelta.vuelta = dataVuelta
+    Actions.push('listflights', { data: idaVuelta, idaVuelta: true })
   }
 
   multiFlights() {
@@ -94,7 +100,10 @@ export default class Flight extends Component {
     }
     if ('IDA-VUELTA' === vista) {
       return (
-        <Card />
+        <Card soloida={false} onSelectOrigin={this.selectOrigin} originValue={this.state.origen}
+          onSelectDestino={this.selectDestino} destinoValue={this.state.destino}
+          onSelectFechaIda={this.selectFechaIda} fechaIdaValue={this.state.fechaIda}
+          onSelectFechaVuelta={this.selectFechaVuelta} fechaVueltaValue={this.state.fechaVuelta} />
       )
     }
     if ('MULTI' === vista) {
@@ -114,6 +123,10 @@ export default class Flight extends Component {
 
   selectFechaIda = (fecha) => {
     this.setState({ fechaIda: fecha })
+  }
+
+  selectFechaVuelta = (fecha) => {
+    this.setState({ fechaVuelta: fecha })
   }
 
   render() {

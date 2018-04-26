@@ -18,15 +18,13 @@ class Card extends Component {
       { name: 'Londres', value: 'LHR' },
       { name: 'Calcuta', value: 'CCU' },
       { name: 'Bruselas', value: 'BRU' },
-      { name: 'Estocolmo', value: 'ARN' }],
-      dateDeparture: new Date(),
-      dateReturn: new Date()
+      { name: 'Estocolmo', value: 'ARN' }]
     }
   }
 
   render() {
     const { soloida, onSelectOrigin, originValue, onSelectDestino, destinoValue,
-      onSelectFechaIda, fechaIdaValue } = this.props
+      onSelectFechaIda, fechaIdaValue, onSelectFechaVuelta, fechaVueltaValue } = this.props
     const _soloida = soloida || false
     const { ciudades } = this.state
     return (
@@ -55,15 +53,14 @@ class Card extends Component {
             textLabel={'Ida'}
             dateValue={fechaIdaValue}
             minDate={new Date()}
-            // onchangeDate={(date) => { this.setState({ dateDeparture: date }) }} 
             onchangeDate={(date) => onSelectFechaIda(date)}
 
           />
           {_soloida ? null : <DateInput
             textLabel={'Regreso'}
-            dateValue={this.state.dateReturn}
+            dateValue={fechaVueltaValue}
             minDate={new Date()}
-            onchangeDate={(date) => { this.setState({ dateReturn: date }) }} />}
+            onchangeDate={(date) => onSelectFechaVuelta(date)} />}
         </View>
       </View >
     )
