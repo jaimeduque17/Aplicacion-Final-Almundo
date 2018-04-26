@@ -7,7 +7,7 @@ import Card from '../../Components/Card'
 import NavBar from '../../Components/NavBar'
 import _styles from './Style'
 
-export default class App extends Component {
+export default class FlightRound extends Component {
   render() {
     return (
       <View style={{ flexDirection: 'column' }}>

@@ -15,12 +15,13 @@ class DateInput extends Component<{ Props }> {
     showAndroidDatePicker = async () => {
         const { onchangeDate, minDate } = this.props
         try {
-            const { action, day, month, year } = await DatePickerAndroid.open({
+            const { action, year, month, day } = await DatePickerAndroid.open({
                 date: new Date(this.state.dateValueLocal),
                 minDate: minDate
             })
             if (action !== DatePickerAndroid.dismissedAction) {
-                const date = new Date(day, month, year)
+                const date = new Date(year, month, day)
+                // const date = Sugar.Date(_date).format('{dd}-{MM}-{yyyy}')
                 this.setState({ dateValueLocal: date })
                 onchangeDate(date)
             }

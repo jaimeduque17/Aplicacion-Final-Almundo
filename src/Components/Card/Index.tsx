@@ -19,14 +19,14 @@ class Card extends Component {
       { name: 'Calcuta', value: 'CCU' },
       { name: 'Bruselas', value: 'BRU' },
       { name: 'Estocolmo', value: 'ARN' }],
-      origin: 'Origen',
-      destination: 'Destino',
       dateDeparture: new Date(),
       dateReturn: new Date()
     }
   }
+
   render() {
-    const { soloida } = this.props
+    const { soloida, onSelectOrigin, originValue, onSelectDestino, destinoValue,
+      onSelectFechaIda, fechaIdaValue } = this.props
     const _soloida = soloida || false
     const { ciudades } = this.state
     return (
@@ -34,39 +34,38 @@ class Card extends Component {
         <View stye={{ width: 109 }}>
           <Text style={styles.textStyle}>{'Origen:'}</Text>
           <Picker
-            selectedValue={this.state.origin}
+            selectedValue={originValue}
             style={{ height: 50, width: 180 }}
-            onValueChange={(itemValue, itemIndex) => this.setState({ origin: itemValue })}>
+            onValueChange={(itemValue, itemIndex) => onSelectOrigin(itemValue, itemIndex)}>
             {ciudades.map((ciudad, index) => <Picker.Item label={ciudad.name} value={ciudad.value} key={index} />)}
           </Picker>
-          {/* <Text style={styles.textStyle}>{'Origen:'}</Text>
-          <TextInput placeholder={'Seleccione un origen ...'} style={styles.textInputStyle}></TextInput> */}
         </View>
         <View stye={{ width: 109 }}>
           <Text style={styles.textStyle}>{'Destino:'}</Text>
           <Picker
-            selectedValue={this.state.destiny}
+            selectedValue={destinoValue}
             style={{ height: 50, width: 180 }}
-            onValueChange={(itemValue, itemIndex) => this.setState({ destiny: itemValue })}>
+            onValueChange={(itemValue, itemIndex) => onSelectDestino(itemValue, itemIndex)}>
             {ciudades.map((ciudad, index) => <Picker.Item label={ciudad.name} value={ciudad.value} key={index} />)}
           </Picker>
-          {/* <TextInput placeholder={'Seleccione un destion ...'} style={styles.textInputStyle}></TextInput> */}
         </View>
         <Text style={styles.textStyle}>{'Fechas:'}</Text>
         <View stye={{ width: 109, flexDirection: 'row' }}>
           <DateInput
             textLabel={'Ida'}
-            dateValue={this.state.dateDeparture}
+            dateValue={fechaIdaValue}
             minDate={new Date()}
-            onchangeDate={(date) => { this.setState({ dateDeparture: date }) }}/>
-          {/* <TextInput placeholder={'Fecha Ida'} style={styles.textInputDate1}></TextInput> */}
+            // onchangeDate={(date) => { this.setState({ dateDeparture: date }) }} 
+            onchangeDate={(date) => onSelectFechaIda(date)}
+
+          />
           {_soloida ? null : <DateInput
             textLabel={'Regreso'}
             dateValue={this.state.dateReturn}
             minDate={new Date()}
-            onchangeDate={(date) => { this.setState({ dateReturn: date }) }}/>}
+            onchangeDate={(date) => { this.setState({ dateReturn: date }) }} />}
         </View>
-      </View>
+      </View >
     )
   }
 }
