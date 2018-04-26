@@ -23,5 +23,14 @@ export default {
     marginTop: 12,
     marginLeft: 140,
     fontWeight: 'bold'
+  },
+  botonMultidestino: {
+    backgroundColor: 'rgb(1, 102, 137)',
+    borderRadius: 2,
+    elevation: 3,
+    width: 328,
+    height: 20,
+    marginHorizontal: 10,
+    marginTop: 10
   }
 }

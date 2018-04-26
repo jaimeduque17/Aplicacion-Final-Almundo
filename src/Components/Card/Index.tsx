@@ -23,8 +23,9 @@ class Card extends Component {
   }
 
   render() {
-    const { soloida, onSelectOrigin, originValue, onSelectDestino, destinoValue,
-      onSelectFechaIda, fechaIdaValue, onSelectFechaVuelta, fechaVueltaValue } = this.props
+    const { multidestino, soloida, onSelectOrigin, addFecha, addOrigen, addDestino, originValue,
+      onSelectDestino, destinoValue, onSelectFechaIda, fechaIdaValue, onSelectFechaVuelta,
+      fechaVueltaValue, indice } = this.props
     const _soloida = soloida || false
     const { ciudades } = this.state
     return (
@@ -34,7 +35,8 @@ class Card extends Component {
           <Picker
             selectedValue={originValue}
             style={{ height: 50, width: 180 }}
-            onValueChange={(itemValue, itemIndex) => onSelectOrigin(itemValue, itemIndex)}>
+            onValueChange={(itemValue, itemIndex) => multidestino ? addOrigen(itemValue, indice) :
+              onSelectOrigin(itemValue, itemIndex)}>
             {ciudades.map((ciudad, index) => <Picker.Item label={ciudad.name} value={ciudad.value} key={index} />)}
           </Picker>
         </View>
@@ -43,7 +45,8 @@ class Card extends Component {
           <Picker
             selectedValue={destinoValue}
             style={{ height: 50, width: 180 }}
-            onValueChange={(itemValue, itemIndex) => onSelectDestino(itemValue, itemIndex)}>
+            onValueChange={(itemValue, itemIndex) => multidestino ? addDestino(itemValue, indice) :
+              onSelectDestino(itemValue, itemIndex)}>
             {ciudades.map((ciudad, index) => <Picker.Item label={ciudad.name} value={ciudad.value} key={index} />)}
           </Picker>
         </View>
@@ -51,12 +54,10 @@ class Card extends Component {
         <View stye={{ width: 109, flexDirection: 'row' }}>
           <DateInput
             textLabel={'Ida'}
-            dateValue={fechaIdaValue}
+            dateValue={(fechaIdaValue || new Date())}
             minDate={new Date()}
-            onchangeDate={(date) => onSelectFechaIda(date)}
-
-          />
-          {_soloida ? null : <DateInput
+            onchangeDate={(date) => multidestino ? addFecha(date, indice) : onSelectFechaIda(date)} />
+          {(_soloida || multidestino) ? null : <DateInput
             textLabel={'Regreso'}
             dateValue={fechaVueltaValue}
             minDate={new Date()}

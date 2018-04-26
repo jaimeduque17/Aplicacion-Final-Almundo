@@ -8,7 +8,7 @@
     "android": "npm run build && concurrently -r 'npm run watch' 'react-native run-android'",
     "ios": "npm run build && concurrently -r 'npm run watch' 'react-native run-ios'",
     "test": "jest --coverage",
-    "tsc": "tsc --noLib",
+    "tsc": "tsc",
     "clean": "rimraf lib",
     "build": "npm run clean && gulp resource-copy && npm run tsc --",
     "lint": "tslint src/**/*.ts",
@@ -23,13 +23,16 @@
     ]
   },
   "dependencies": {
-    "@ptomasroos/react-native-multi-slider": "0.0.12",
     "react": "16.3.1",
     "react-native": "0.55.1",
     "react-native-devsettings-android": "0.1.5",
+    "react-native-i18n": "^2.0.12",
+    "react-native-linear-gradient": "^2.4.0",
     "react-native-orientation": "3.1.3",
     "react-native-router-flux": "^4.0.0-beta.28",
     "react-native-shadow": "^1.2.2",
+    "react-native-svg": "^6.3.1",
+    "react-native-vector-icons": "^4.6.0",
     "sugar": "2.0.4",
     "sugar-inflections": "2.0.4"
   },

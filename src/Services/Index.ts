@@ -1,4 +1,4 @@
-const RUTA = 'http://cb1fc847.ngrok.io'
+const RUTA = 'http://3906c6ce.ngrok.io'
 
 export const searchFlightsReturn = (params) => {
   return fetch(`${RUTA}/flights/return/?${params}`)
